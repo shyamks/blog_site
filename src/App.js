@@ -6,11 +6,8 @@ import './App.css';
 class App extends Component {
     render() {
         return (
-            <div >
+            <div className="app-container">
                 <StickyContainer >
-                    <Sticky className={App}>
-                        <Header />
-                    </Sticky>
                     {this.props.children}
                 </StickyContainer>
             </div>

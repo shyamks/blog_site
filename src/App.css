@@ -1,13 +1,15 @@
-.App {
+.app {
   text-align: center;
 }
-
-.App-logo {
+.app-container {
+  margin: 0 10px 0 10px;
+}
+.app-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-intro {
+.app-intro {
   font-size: large;
 }
 
